@@ -240,6 +240,7 @@
         box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin: 18px;
         text-align: center;
+        transition: 0.5s;
         
         
     }
@@ -339,16 +340,29 @@
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         /* margin-left: 130px; */
     }
+    .maincontainer3 div{
+        transition: 0.5s;
+    }
     .maincontainer3 div:hover{
         margin-top: .5px;
+        
+    }
+    .maincontainer5 div{
+        transition: 0.5s;
         
     }
     .maincontainer5 div:hover{
         margin-top: .5px;
         
     }
+
    
+    .maincontainer6 div{
+        transition: 0.5s;
+    
+    }
     .maincontainer6 div:hover{
         margin-top: .5px;
         
     }
+    

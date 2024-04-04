@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;}
+    .navibar{
+        height: 100px;
+        width: 100%;
+        /* border: 1px blue solid; */
+    }
+    .logored{
+        margin-top: 18px;
+        margin-left: 150px;
+    }
+    .navitem a{
+        text-decoration: none;
+        display: inline;
+        color: rgb(81, 75, 75);
+
+    }
+    .navitem{
+        text-decoration: none;
+        display: inline;
+        padding: 12px;
+        /* justify-content: left; */
+    }
+    .cart{
+        display: inline;
+        margin-left: 1300x;
+        margin-top: 300px;
+    }
+    .top1{
+        display: inline;
+        margin-left: 646px;
+        margin-top: -15px;
+        font-size:medium;
+        font-family:Arial, Helvetica, sans-serif;
+        
+
+
+        
+    }
+    .list{
+        display: inline;
+    }
+    .container1{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 100px;
+        margin-top: 75px;
+        position: relative;
+    }
+    .all{
+        margin-top: 18px;
+        margin-left: 250px;
+        position: absolute;
+    }
+    .sort{
+        margin-left: 1150px;
+        margin-top: 25px;
+        border: 1px solid red;
+        height: 30px;
+          
+    }
+    
+    .maincontainer3{
+        width: 100%;
+        height: 500px;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .maincontainer3 div{
+        height: 400px;
+        width: 244px;
+        /* border: 2px solid black; */
+        margin: 20px;
+    }
+    .maincontainer5{
+        width: 100%;
+        height: 500px;
+        /* border: 2px solid rgb(255, 0, 0); */
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+    .maincontainer5 div{
+        height: 400px;
+        width: 244px;
+        /* border: 2px solid rgb(10, 10, 10); */
+        margin: 20px;
+    }
+    .maincontainer6{
+        width: 100%;
+        height: 500px;
+        /* border: 2px solid rgb(13, 251, 5); */
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+    .maincontainer6 div{
+        height: 400px;
+        width: 244px;
+        /* border: 2px solid rgb(10, 10, 10); */
+        margin: 20px;
+    }
+    .maincontainer3 div{
+        transition: 0.5s;
+    }
+    .maincontainer3 div:hover{
+        margin-top: .5px;
+        
+    }
+    .maincontainer5 div{
+        transition: 0.5s;
+        
+    }
+    .maincontainer5 div:hover{
+        margin-top: .5px;
+        
+    }
+
+   
+    .maincontainer6 div{
+        transition: 0.5s;
+    
+    }
+    .maincontainer6 div:hover{
+        margin-top: .5px;
+        
+    }
+    .small{
+        height: 100px;
+        width: 100%;
+        /* border: 1px solid green; */
+        display: flex;
+        padding-left: 195px;
+
+    }
+    .smalldiv{
+        border: 1px solid red;
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+        text-align: center;
+        justify-content: center;
+        padding-top: 10px;      
+    }
+    .smalldiv:hover{
+        background-color: orangered;
+        color: white;
+    }
+    .bottom{
+        /* border: 2px solid rgb(205, 39, 39); */
+        height:200px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content:center;
+        
+    }
+    .bottom div{
+        height: 200px;
+        width: 30%;
+        /* border: 1px solid white; */
+              
+    }
+    .bottom1{
+        position: relative;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottom2{
+        padding: 40px;
+        text-align: center;
+    }
+    .bottom3{
+        align-items:center;
+        display: flex;
+    }
+    .left{
+        width: 100%;
+        height: 100%;
+        /* border: 5px solid red; */
+        padding: 20px;
+    }
+    .right{
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid red; */
+        margin-left: 80px;
+        padding: 20px;    
+
+    }
+    .final{
+        width: 100%;
+        height: 80px;
+        /* border: 1px solid green; */
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    
+    }
+    .w{
+        margin-left: 150px;
+        width: 80%;
+        height: 1px;
+        color: gray;
+    }
+
+

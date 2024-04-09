@@ -43,19 +43,19 @@
         display: inline;
     }
     .cont1{
-        border: 1px solid black;
+        /* border: 1px solid black; */
         height: 780px;
         width: 100%;
         background-image: linear-gradient(rgb(240, 195, 203),white,rgb(240, 195, 203));
         display: flex;
     }
     .cont1left{
-        border: 1px green solid;
+        /* border: 1px green solid; */
         height: 680px;
         width: 50%;
     }
     .cont1right{
-        border: 1px blue solid;
+        /* border: 1px blue solid; */
         height: 680px;
         width: 50%;
         position: relative;
@@ -67,6 +67,14 @@
     margin-left: 160px;
 }
 .formdiv{
+    /* position: relative; */
+    height: 385px;
+    width: 300px;
+    top: 160px;
+    left: 160px;
+    border: 2px solid blue;
+}
+.formdivreg{
     height: 385px;
     width: 300px;
     /* border: 1px solid red; */
@@ -76,11 +84,80 @@
     background-color: white;
     box-shadow: 10px
 }
-.id{
+.reg{
+    position: relative;
+    top: 130px;
+    margin-left: 15px;
+    /* border: .5px solid rgb(160, 159, 159); */
+}
+.regh1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(47, 47, 47);
+    position: relative;
+    top: 25px;
+    left: 50px;
+    display: inline;
+    padding: 20px;
+}
+.reghr{
+    height: 4px;
+    background-color: rgb(246, 87, 51);
+    border: none;
+    position: relative;
+    top: 28px;
+    left: 145px;
+}
+.loghr{
+    height: 4px;
+    background-color: rgb(246, 87, 51);
+    border: none;
+    position: relative;
+    top: 28px;
+    left: 58px;
+}
+.formdivlog{
+    height: 385px;
+    width: 300px;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 160px;
+    left: 160px;
+    background-color: white;
+    box-shadow: 10px
+}
+.cont1right.active .formdivlog{
+    display: none;
+}
+.login1{
+    position: relative;
+    top: 130px;
+    margin-left: 15px;
+    /* border: .5px solid rgb(160, 159, 159); */
+}
+/* .id{
     margin: px;
     margin-left: 50px;
     margin-top: 80px;
     
+} */
+#inp{
+    margin:10px;
+    height: 28px;
+    width: 250px;
+}
+.but{
+    border: .5px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    background-color: rgb(246, 87, 51);
+    position: relative;
+    left: 25px;
+    top: 140px;
+    width: 250px;
+    height:30px;
+    color: white;
+}
+.but:hover{
+    background-color: rgb(74, 43, 33);
 }
 .bottom{
     /* border: 2px solid rgb(205, 39, 39); */
